@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7f4f9a432ef50a149be09cb728e1d38b
+  - enabled: 1
+    path: Assets/Scenes/LevelSelectionMenu.unity
+    guid: 1ce433ea8a01d2d44b835c453bc70a1a
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 5df152ebd03e2324dbd235ede516d4ca
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel01.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel02.unity
+    guid: 7f074e63e650451499adbcaadfaca92c
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel03.unity
+    guid: e384655f901dba7468344169b4625a3a
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel04.unity
+    guid: 4644030dba646a241801833b14b9f881
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel05.unity
+    guid: f0d518afea16bca4a91e37166717dc68
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel06.unity
+    guid: 8c6b8662e6802f24fbba9729c6059d3b
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel07.unity
+    guid: a45ac2cfcbca3334a9e83fe4dd503925
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel08.unity
+    guid: 71bcb9c1187f76a49adab857f29f891b
+  - enabled: 1
+    path: Assets/Scenes/LevelS/RestroomLevel09.unity
+    guid: f706c9b8ad184434c9823ec85e959427
+  m_configObjects: {}
