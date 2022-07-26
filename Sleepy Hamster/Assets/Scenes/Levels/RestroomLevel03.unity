@@ -249,6 +249,11 @@ PrefabInstance:
       objectReference: {fileID: 783882839}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
+--- !u!50 &311622656 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 8920858410426822433, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
+  m_PrefabInstance: {fileID: 614024434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &354288625
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +749,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7717503812591819524, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
+      propertyPath: _distanceFromChainEnd
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717503812591819525, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -798,7 +807,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7717503812591819531, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: m_Mass
-      value: 28
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717503812591819531, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717503812591819531, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
@@ -1589,7 +1606,7 @@ HingeJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1465016462}
+  m_ConnectedRigidBody: {fileID: 1980721981}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
@@ -1611,11 +1628,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465016457}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10
+  m_Mass: 5
   m_LinearDrag: 0.2
   m_AngularDrag: 0.1
   m_GravityScale: 1
@@ -1843,6 +1860,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086788681867754261, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086788681867754263, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
+      propertyPath: _distanceFromChainEnd
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6086788681867754266, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
@@ -2079,6 +2100,7 @@ GameObject:
   - component: {fileID: 1980721978}
   - component: {fileID: 1980721977}
   - component: {fileID: 1980721976}
+  - component: {fileID: 1980721981}
   m_Layer: 0
   m_Name: HookConnect (1)
   m_TagString: Untagged
@@ -2139,9 +2161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0ee40e74997eb4fa4ad47af58de121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hook: {fileID: 1465016462}
+  _hook: {fileID: 311622656}
   _linkPrefab: {fileID: 2990390399047753126, guid: c3eb716d7006a08428f8e57fb8d078b0, type: 3}
-  _numberOfLinks: 15
+  _numberOfLinks: 30
   _connectableObject: {fileID: 1676956026}
 --- !u!120 &1980721979
 LineRenderer:
@@ -2292,6 +2314,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1980721981
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980721974}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &2028468565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5127559154447173406, guid: 4641f7216a7445c46b71aefc33d6c483, type: 3}

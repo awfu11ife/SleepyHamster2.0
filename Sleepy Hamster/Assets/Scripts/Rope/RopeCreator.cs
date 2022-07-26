@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(LineRenderer))]
 public class RopeCreator : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _hook;

@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel04
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1 &87798172
 GameObject:
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel02
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1 &556242899
 GameObject:
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel05
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1001 &681853044
 PrefabInstance:
@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel08
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1 &1072522812
 GameObject:
@@ -2448,7 +2448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel03
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1001 &1750602863
 PrefabInstance:
@@ -2682,7 +2682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel09
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1 &1810913175
 GameObject:
@@ -3201,7 +3201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel06
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1 &1937094499
 GameObject:
@@ -3338,7 +3338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneName: RestroomLevel07
-  _transition: {fileID: 6101189714838541486, guid: d6f72fa757f850541bb3bbccc4a141b5, type: 3}
+  _transition: {fileID: 1891526629}
   _transitionTime: 0.5
 --- !u!1001 &8026591701050378521
 PrefabInstance:

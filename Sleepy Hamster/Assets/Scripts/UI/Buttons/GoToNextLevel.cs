@@ -21,10 +21,10 @@ public class GoToNextLevel : MonoBehaviour
     private void ChangeToNextLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int lastSceneIndex = SceneManager.sceneCount - 1;
+        int lastSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
 
         if (currentSceneIndex < lastSceneIndex)
-            LoadDelay(currentSceneIndex + 1);
+            StartCoroutine(LoadDelay(currentSceneIndex + 1));
     }
 
     IEnumerator LoadDelay(int sceneIndex)

@@ -1402,7 +1402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1144753244485294875, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.769986
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1144753244485294875, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1432,6 +1432,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1144753244485294877, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
+      propertyPath: _eatNut
+      value: 
+      objectReference: {fileID: 396112421}
     - target: {fileID: 1144753244485294878, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_Name
       value: LevelBorders

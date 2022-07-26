@@ -94,11 +94,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111576950068234564}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10
+  m_Mass: 5
   m_LinearDrag: 0.2
   m_AngularDrag: 0.1
   m_GravityScale: 1
@@ -117,12 +117,12 @@ HingeJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 7114443225012087635}
+  m_ConnectedRigidBody: {fileID: 8920858410426822433}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: -2}
+  m_ConnectedAnchor: {x: 0, y: 0}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -341,6 +341,7 @@ GameObject:
   - component: {fileID: 2804930447637629518}
   - component: {fileID: 2804930447637629513}
   - component: {fileID: 2804930447637629512}
+  - component: {fileID: 8920858410426822433}
   m_Layer: 0
   m_Name: HookConnect
   m_TagString: Untagged
@@ -554,6 +555,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _disableoColor: {r: 1, g: 1, b: 1, a: 0}
   _disableTime: 30
+--- !u!50 &8920858410426822433
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804930447637629515}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4238248040117749461
 GameObject:
   m_ObjectHideFlags: 0
