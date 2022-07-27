@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class LevelBordersCross : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void DisableObject()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        gameObject.SetActive(false);
     }
 }

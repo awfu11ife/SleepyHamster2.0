@@ -23,7 +23,8 @@ public class LevelBorders : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out LevelBordersCross levelBordersCross))
         {
-                StartCoroutine(RestartLevel());
+            levelBordersCross.DisableObject();
+            StartCoroutine(RestartLevel());
         }
     }
 

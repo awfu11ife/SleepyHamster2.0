@@ -180,7 +180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2804930447637629518, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
       propertyPath: _numberOfLinks
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2804930447637629518, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
       propertyPath: _connectableObject
@@ -338,6 +338,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1144753244485294877, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
+      propertyPath: _eatNut
+      value: 
+      objectReference: {fileID: 1676956022}
     - target: {fileID: 1144753244485294878, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_Name
       value: LevelBorders
@@ -558,7 +562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2804930447637629518, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
       propertyPath: _numberOfLinks
-      value: 40
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2804930447637629518, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
       propertyPath: _connectableObject
@@ -1828,7 +1832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086788681867754261, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.49
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 6086788681867754261, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
       propertyPath: m_LocalPosition.z
