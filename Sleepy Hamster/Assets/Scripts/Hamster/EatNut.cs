@@ -15,9 +15,9 @@ public class EatNut : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out ConnectableObject connectableObject))
+        if (collision.gameObject.TryGetComponent(out Nut nut))
         {
-            Destroy(collision.gameObject);
+            nut.DisableNut();
             _nutEaten?.Invoke();
         }
     }

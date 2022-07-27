@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 7717503812591819524}
   - component: {fileID: 7717503812591819531}
   - component: {fileID: 7717503812591819530}
+  - component: {fileID: 783882836}
+  - component: {fileID: 3666344926713823844}
   m_Layer: 0
   m_Name: Nut
   m_TagString: Untagged
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 73441510bcf61bf4ab1e783dffae37a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9342e9cddc159e243801e48262a5ce11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -110,9 +112,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 28
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 8
+  m_LinearDrag: 0.1
+  m_AngularDrag: 0.1
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -135,3 +137,28 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
+--- !u!114 &783882836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7717503812591819529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728db1dd80dce4c438457acb6d048153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3666344926713823844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7717503812591819529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45a71081e0fb2945afab325fdc7bf61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eatNutParticle: {fileID: 5118505063457058764, guid: 29e47459c1d1be7409f0170f85c4403e, type: 3}
