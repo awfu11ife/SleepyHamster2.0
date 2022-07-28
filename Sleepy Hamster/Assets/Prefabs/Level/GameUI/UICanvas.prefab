@@ -681,7 +681,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -110}
-  m_SizeDelta: {x: 400, y: 100}
+  m_SizeDelta: {x: 400, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3477763181698311737
 MonoBehaviour:
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc9ff92e950c554298c775e971a8e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _eatNut: {fileID: 0}
+  _eatNut: {fileID: 9117061257371237790, guid: 0a5bdcb4876405246a649968fb7ea8f0, type: 3}
   _timeBeforePanelOpen: 1.5
   _backGround: {fileID: 3477763181857487147}
   _fillindDuration: 1

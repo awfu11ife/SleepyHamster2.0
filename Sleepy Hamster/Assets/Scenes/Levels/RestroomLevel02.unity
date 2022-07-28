@@ -396,17 +396,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6086788681867754266, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
   m_PrefabInstance: {fileID: 98897502}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &98897504 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 396112421, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
-  m_PrefabInstance: {fileID: 98897502}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad1902f0f8d4c2f44af5850f5a04904b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &98897505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,7 +429,7 @@ PrefabInstance:
     - target: {fileID: 4483827000045814594, guid: 3799559c86e9d214792410a725f29895, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 98897504}
+      objectReference: {fileID: 150684234}
     - target: {fileID: 4483827000045814594, guid: 3799559c86e9d214792410a725f29895, type: 3}
       propertyPath: _starsView
       value: 
@@ -560,6 +549,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8903e56d990d7f84ab278362f9d0e560, type: 3}
+--- !u!114 &150684234 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 723171506547581193, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
+  m_PrefabInstance: {fileID: 98897502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1902f0f8d4c2f44af5850f5a04904b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &155037289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029,6 +1029,7 @@ GameObject:
   - component: {fileID: 716612953}
   - component: {fileID: 716612952}
   - component: {fileID: 716612951}
+  - component: {fileID: 716612956}
   m_Layer: 0
   m_Name: HookConnect (1)
   m_TagString: Untagged
@@ -1242,6 +1243,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &716612956
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716612949}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &814038131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1361,7 +1383,7 @@ PrefabInstance:
     - target: {fileID: 1144753244485294877, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 98897504}
+      objectReference: {fileID: 150684234}
     - target: {fileID: 1144753244485294878, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_Name
       value: LevelBorders
@@ -1570,6 +1592,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 192677385638262382, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
+      propertyPath: _eatNut
+      value: 
+      objectReference: {fileID: 150684234}
     - target: {fileID: 7717503812591819525, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2346,7 +2372,7 @@ PrefabInstance:
     - target: {fileID: 3477763182186879026, guid: 51a555f8d6d21d743807b28dcda1b369, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 98897504}
+      objectReference: {fileID: 150684234}
     - target: {fileID: 3477763182560583488, guid: 51a555f8d6d21d743807b28dcda1b369, type: 3}
       propertyPath: _transition
       value: 
@@ -2431,7 +2457,7 @@ HingeJoint2D:
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 2084412242}
+  m_ConnectedRigidBody: {fileID: 716612956}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
@@ -2453,7 +2479,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084412237}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

@@ -658,7 +658,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &418682189 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 396112421, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
+  m_CorrespondingSourceObject: {fileID: 723171506547581193, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
   m_PrefabInstance: {fileID: 418682187}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1765,6 +1765,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 192677385638262382, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
+      propertyPath: _eatNut
+      value: 
+      objectReference: {fileID: 418682189}
     - target: {fileID: 7717503812591819525, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: m_Sprite
       value: 

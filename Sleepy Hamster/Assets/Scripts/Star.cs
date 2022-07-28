@@ -16,11 +16,14 @@ public class Star : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out ConnectableObject connectableObject))
+        if (collision.gameObject.TryGetComponent(out StarCollector starCollector))
         {
-            Instantiate(_destroyStarParticle, transform.position, Quaternion.identity);
-            gameObject.SetActive(false);
-            _collected?.Invoke();
+            if (starCollector.IsAbleToCollect == true)
+            {
+               Instantiate(_destroyStarParticle, transform.position, Quaternion.identity);
+               gameObject.SetActive(false);
+               _collected?.Invoke();
+            }
         }
     }
 }

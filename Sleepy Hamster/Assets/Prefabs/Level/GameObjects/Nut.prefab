@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7717503812591819530}
   - component: {fileID: 783882836}
   - component: {fileID: 3666344926713823844}
+  - component: {fileID: 192677385638262382}
   m_Layer: 0
   m_Name: Nut
   m_TagString: Untagged
@@ -162,3 +163,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _eatNutParticle: {fileID: 5118505063457058764, guid: 29e47459c1d1be7409f0170f85c4403e, type: 3}
+--- !u!114 &192677385638262382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7717503812591819529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee26359c6e1bdf74f823b6c54e5531e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eatNut: {fileID: 0}
