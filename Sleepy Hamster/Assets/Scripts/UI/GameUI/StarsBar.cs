@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class StarsBar : MonoBehaviour
 {
-    [SerializeField] private StarsView _starsView;
+    [SerializeField] private StarsHolder _starsView;
     [SerializeField] private UIStar _uIStarTemplate;
 
     private List<UIStar> _uIStars = new List<UIStar>();

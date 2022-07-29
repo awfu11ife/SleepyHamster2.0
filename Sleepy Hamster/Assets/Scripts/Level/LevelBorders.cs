@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class LevelBorders : MonoBehaviour
 {
     [SerializeField] private float _delayBeforeLevelRestart;
-    [SerializeField] private EatNut _eatNut;
+    [SerializeField] private NutEater _eatNut;
     private bool _levelComplited = false;
+    private WaitForSeconds _restartDelay;
 
     private void OnEnable()
     {
@@ -17,6 +18,11 @@ public class LevelBorders : MonoBehaviour
     private void OnDisable()
     {
         _eatNut.NutEaten -= DisableLevelBorders;
+    }
+
+    private void Start()
+    {
+        _restartDelay = new WaitForSeconds(_delayBeforeLevelRestart);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -30,7 +36,7 @@ public class LevelBorders : MonoBehaviour
 
     private IEnumerator RestartLevel()
     {
-        yield return new WaitForSeconds(_delayBeforeLevelRestart);
+        yield return _restartDelay;
 
         if (_levelComplited == false)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

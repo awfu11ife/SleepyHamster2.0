@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EndLevel : MonoBehaviour
 {
-    [SerializeField] private EatNut _eatNut;
+    [SerializeField] private NutEater _eatNut;
     [SerializeField] private float _timeBeforePanelOpen;
 
     [SerializeField] private Image _backGround;

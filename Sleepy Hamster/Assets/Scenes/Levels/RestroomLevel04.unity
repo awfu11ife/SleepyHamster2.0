@@ -526,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 4483827000045814594, guid: 3799559c86e9d214792410a725f29895, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 418682189}
+      objectReference: {fileID: 751788557}
     - target: {fileID: 4483827000045814594, guid: 3799559c86e9d214792410a725f29895, type: 3}
       propertyPath: _starsView
       value: 
@@ -656,17 +656,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6086788681867754266, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
   m_PrefabInstance: {fileID: 418682187}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &418682189 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 723171506547581193, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
-  m_PrefabInstance: {fileID: 418682187}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad1902f0f8d4c2f44af5850f5a04904b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &418682190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,6 +1088,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45720dde4d8c62409c7e2d52dcf1682, type: 3}
+--- !u!114 &751788557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8124048488289700872, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
+  m_PrefabInstance: {fileID: 418682187}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b4808afc2368f498ad255920bc9844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &826906822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5127559154447173406, guid: 4641f7216a7445c46b71aefc33d6c483, type: 3}
@@ -1751,7 +1751,7 @@ PrefabInstance:
     - target: {fileID: 1144753244485294877, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 418682189}
+      objectReference: {fileID: 751788557}
     - target: {fileID: 1144753244485294878, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_Name
       value: LevelBorders
@@ -1768,7 +1768,7 @@ PrefabInstance:
     - target: {fileID: 192677385638262382, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 418682189}
+      objectReference: {fileID: 751788557}
     - target: {fileID: 7717503812591819525, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2514,7 +2514,7 @@ PrefabInstance:
     - target: {fileID: 3477763182186879026, guid: 51a555f8d6d21d743807b28dcda1b369, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 418682189}
+      objectReference: {fileID: 751788557}
     - target: {fileID: 3477763182560583485, guid: 51a555f8d6d21d743807b28dcda1b369, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

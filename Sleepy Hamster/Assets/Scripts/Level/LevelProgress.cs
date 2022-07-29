@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelProgress : MonoBehaviour
 {
-    [SerializeField] private StarsView _starsView;
-    [SerializeField] private EatNut _eatNut;
+    [SerializeField] private StarsHolder _starsView;
+    [SerializeField] private NutEater _eatNut;
 
     private int _numberOfCollectedStars;
     private string _key;

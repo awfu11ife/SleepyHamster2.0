@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class StarCollector : MonoBehaviour
 {
-    [SerializeField]private EatNut _eatNut;
+    [SerializeField]private NutEater _eatNut;
 
     public bool IsAbleToCollect { get; private set; }
 

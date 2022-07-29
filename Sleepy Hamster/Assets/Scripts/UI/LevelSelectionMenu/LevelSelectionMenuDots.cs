@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelSelectionMenuDots : MonoBehaviour
 {
-    [SerializeField] private LevelTypes _levelTypes;
+    [SerializeField] private LevelTypesHolder _levelTypes;
     [SerializeField] private Dot _dotTempLate;
 
     private List<Dot> _allDots = new List<Dot>();

@@ -429,7 +429,7 @@ PrefabInstance:
     - target: {fileID: 4483827000045814594, guid: 3799559c86e9d214792410a725f29895, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 150684234}
+      objectReference: {fileID: 1135979702}
     - target: {fileID: 4483827000045814594, guid: 3799559c86e9d214792410a725f29895, type: 3}
       propertyPath: _starsView
       value: 
@@ -549,17 +549,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8903e56d990d7f84ab278362f9d0e560, type: 3}
---- !u!114 &150684234 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 723171506547581193, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
-  m_PrefabInstance: {fileID: 98897502}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad1902f0f8d4c2f44af5850f5a04904b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &155037289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1383,7 +1372,7 @@ PrefabInstance:
     - target: {fileID: 1144753244485294877, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 150684234}
+      objectReference: {fileID: 1135979702}
     - target: {fileID: 1144753244485294878, guid: ef0a5994b9d6dab42913c44634980273, type: 3}
       propertyPath: m_Name
       value: LevelBorders
@@ -1595,7 +1584,7 @@ PrefabInstance:
     - target: {fileID: 192677385638262382, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 150684234}
+      objectReference: {fileID: 1135979702}
     - target: {fileID: 7717503812591819525, guid: 002cfc0fd7bc8b3428d9a9c833be8b8c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1893,6 +1882,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1595976266448000782, guid: 2ac9e68674022864baf6e9febd5ff30e, type: 3}
   m_PrefabInstance: {fileID: 316176485}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1135979702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8124048488289700872, guid: 7a35e976407c8ab418cfec651493d334, type: 3}
+  m_PrefabInstance: {fileID: 98897502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b4808afc2368f498ad255920bc9844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1155128386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4121028017982321995, guid: 8903e56d990d7f84ab278362f9d0e560, type: 3}
@@ -2546,7 +2546,7 @@ PrefabInstance:
     - target: {fileID: 3477763182186879026, guid: 51a555f8d6d21d743807b28dcda1b369, type: 3}
       propertyPath: _eatNut
       value: 
-      objectReference: {fileID: 150684234}
+      objectReference: {fileID: 1135979702}
     - target: {fileID: 3477763182560583485, guid: 51a555f8d6d21d743807b28dcda1b369, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

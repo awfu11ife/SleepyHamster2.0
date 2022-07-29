@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5145295200070542215}
   - component: {fileID: 80032974146707524}
-  - component: {fileID: 9117061257371237790}
   - component: {fileID: 5700936644440282161}
+  - component: {fileID: 302054815103176863}
   m_Layer: 0
   m_Name: Sleep Hamster
   m_TagString: Untagged
@@ -84,21 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9117061257371237790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002676593720663874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad1902f0f8d4c2f44af5850f5a04904b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _nutEaten:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!58 &5700936644440282161
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -115,3 +100,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.1
+--- !u!114 &302054815103176863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002676593720663874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b4808afc2368f498ad255920bc9844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nutEaten:
+    m_PersistentCalls:
+      m_Calls: []
