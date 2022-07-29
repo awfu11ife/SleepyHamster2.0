@@ -16,7 +16,16 @@ public class PauseResumeGame : MonoBehaviour
     private void Awake()
     {
         _pauseButton = GetComponent<Button>();
+    }
+
+    private void OnEnable()
+    {
         _pauseButton.onClick.AddListener(ButtonBehaviour);
+    }
+
+    private void OnDisable()
+    {
+        _pauseButton.onClick.RemoveListener(ButtonBehaviour);
     }
 
     private void ButtonBehaviour()

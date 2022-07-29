@@ -50,6 +50,9 @@ public class ShowStarsProgerss : MonoBehaviour
             case 3:
                 ChangeSprite(_threeStars);
                 break;
+            default:
+                ChangeSprite(_nonStars);
+                break;
         }
     }
 

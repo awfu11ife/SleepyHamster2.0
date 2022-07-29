@@ -18,7 +18,16 @@ public class ChangeScene : MonoBehaviour
     private void Awake()
     {
         _sceneChangeButton = GetComponent<Button>();
+    }
+
+    private void OnEnable()
+    {
         _sceneChangeButton.onClick.AddListener(LoadScene);
+    }
+
+    private void OnDisable()
+    {
+        _sceneChangeButton.onClick.RemoveListener(LoadScene);
     }
 
     private void LoadScene()

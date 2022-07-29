@@ -14,8 +14,17 @@ public class GoToNextLevel : MonoBehaviour
 
     private void Awake()
     {
-        _nextLevelButton = GetComponent<Button>();
+        _nextLevelButton = GetComponent<Button>();       
+    }
+
+    private void OnEnable()
+    {
         _nextLevelButton.onClick.AddListener(ChangeToNextLevel);
+    }
+
+    private void OnDisable()
+    {
+        _nextLevelButton.onClick.RemoveListener(ChangeToNextLevel);
     }
 
     private void ChangeToNextLevel()
